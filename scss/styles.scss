@@ -1,0 +1,31 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 56em;
+  text-align: center;
+  margin: auto;
+  padding: 2em;
+}
+
+header {
+  margin-bottom: 1em;
+}
+
+ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(10em, 1fr));
+  gap: 2em;
+  padding: 1em;
+}
